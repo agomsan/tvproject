@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .remote {
+    display: flex;
+    justify-content: left;
+    margin: 10%;
+    background-image: url(../img/remote.png);
+  }
+  .screem {
+      color: white;
+      background-color: blue;
+      width: 100%;
+      height: fit-content;
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    background-image: url(../img/tv.png);
+  }
+  
