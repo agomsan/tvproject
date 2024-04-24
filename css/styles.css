@@ -77,3 +77,12 @@ body {
 #volume-switch {
     width: 80%;
 }
+#change-channel-btn {
+    background-color: #FF5733;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px; 
+}
+
