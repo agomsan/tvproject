@@ -1,21 +1,79 @@
+
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
-  .remote {
-    display: flex;
-    justify-content: left;
-    margin: 10%;
-    background-image: url(../img/remote.png);
-  }
-  .screem {
-      color: white;
-      background-color: blue;
-      width: 100%;
-      height: fit-content;
-    display: flex;
-    justify-content: right;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Content */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* footer */
+footer {
+    background-color: #f4f4f4;
+    text-align: left;
+    padding: 1rem;
+}
+/* small screens */
+@media (max-width: 768px) {
+}
+
+/* medium screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* big screens */
+@media (min-width: 1025px) {
+    /* Ajusta los estilos aquí */
+}
+/* style.css */
+
+/* general styles */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    background-image: url(../img/tv.png);
-  }
-  
+    padding: 0;
+}
+
+/* TV */
+.tv-screen {
+    background-color: #000;
+    width: 100%;
+    height: 60vh; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+}
+
+/* TV remote */
+.tv-remote {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* power button */
+#power-switch {
+    background-color: #0074D9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* volume */
+#volume-switch {
+    width: 80%;
+}
