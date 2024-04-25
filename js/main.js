@@ -4,6 +4,13 @@ const imgHome = "./img/home.png";
 const screenTv = document.querySelector(".screenTv");
 const homeBtn = document.querySelector(".homeBtn");
 let currentChannelIndex = 0;
+function myFunc()  {
+	var now = new Date();
+	var time = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
+	document.getElementById('display-time').innerHTML= time;
+}
+myFunc();
+setInterval(myFunc, 1000);
 
 const channel = [
   {
