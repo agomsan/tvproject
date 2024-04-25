@@ -1,22 +1,136 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TVproject</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Oswald:400,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="./CSS/styles.css" rel="stylesheet" />
+
+    <title>proyectTv</title>
   </head>
-  <body>
-    <div class="tv-screen">
-      <!-- Content -->
+  <!-- ESTE ES EL FONDO -->
+  <body class="body d-grid container-fluid row">
+    <!-- ESTA ES LA TV -->
+    <div class="container col-sm-6 col-lg-3 col-md-4">
+      <div class="tv container-fluid">
+        <!-- SCREEN -->
+        <div class="screenTv none col-sm-12 col-lg-3 col-md-4">
+          <div class="infoChannel">
+            <p class="nameChannel">
+              <p id="display-time">
+                <script>
+                    function myFunc()  {
+                        var now = new Date();
+                        var time = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
+                        document.getElementById('display-time').innerHTML = time;
+                    }
+                    setInterval(myFunc, 1000);
+                </script>
+                </p>
+            </p>
+          </div>
+          <img
+            class="channel"
+            src="./img/home.png"
+            class="imgHome col-sm-6 col-lg-3 col-md-4"
+          />
+        </div>
+      </div>
+      <div class="remote text-white d-grid container-fluid">
+        <div class="topRemote row">
+          <div class="powerOnOff col-sm-6 col-lg-3 col-md-4">
+            <button onclick="onOffTv()" class="onOff text-white d-grid">
+              ON
+              OFF
+            </button>
+          </div>
+          <button onclick="goHome()" class="homeBtn col-sm-6 col-lg-3 col-md-4">
+            🏠
+          </button>
+        </div>
+        <div class="midRemote">
+          <div class="vol row text-black">
+            <button
+              onclick="VolUp()"
+              class="VolUp col-sm-6 col-lg-3 col-md-4"
+            >
+              Vol+
+            </button>
+            <button
+              onclick="Voldwn()"
+              class="VolDwn col-sm-6 col-lg-3 col-md-4"
+            >
+              Vol-
+            </button>
+          </div>
+          <div class="channel row text-black">
+            <button
+              onclick="channelUp()"
+              class="chUp col-sm-6 col-lg-3 col-md-4"
+            >
+              CH+
+            </button>
+            <button
+              onclick="channelDown()"
+              class="chDwn col-sm-6 col-lg-3 col-md-4"
+            >
+              CH-
+            </button>
+          </div>
+        </div>
+        <div class="bottomRemote row">
+          <div class="1 col-sm-6 col-lg-3 col-md-4">
+            <button class="button" onClick="getChannel(1)">1</button>
+          </div>
+          <div class="1 col-sm-6 col-lg-3 col-md-4">
+            <button class="button" onClick="getChannel(2)">2</button>
+          </div>
+          <div class="1 col-sm-6 col-lg-3 col-md-4">
+            <button class="button" onClick="getChannel(3)">3</button>
+          </div>
+          <div class="1 col-sm-6 col-lg-3 col-md-4">
+            <button class="button" onClick="getChannel(4)">4</button>
+          </div>
+          <div class="1 col-sm-6 col-lg-3 col-md-4">
+            <button class="button" onClick="getChannel(5)">5</button>
+          </div>
+          <div class="1 col-sm-6 col-lg-3 col-md-4">
+            <button class="button" onClick="getChannel(6)">6</button>
+          </div>
+          <div class="1 col-sm-6 col-lg-3 col-md-4">
+            <button class="button" onClick="getChannel(7)">7</button>
+          </div>
+          <div class="1 col-sm-6 col-lg-3 col-md-4">
+            <button class="button" onClick="getChannel(8)">8</button>
+          </div>
+          <div class="1 col-sm-6 col-lg-3 col-md-4">
+            <button class="button" onClick="getChannel(9)">9</button>
+          </div>
+          <div class="1 col-sm-6 col-lg-3 col-md-4">
+            <button class="button" onClick="getChannel(10)">10</button>
+          </div>
+          <div class="1 col-sm-6 col-lg-3 col-md-4">
+            <button class="button" onClick="getChannel(11)">11</button>
+          </div>
+          <div class="1 col-sm-6 col-lg-3 col-md-4">
+            <button class="button" onClick="getChannel(12)">12</button>
+          </div>
+
+        </div>
+      </div>
     </div>
 
-    <div class="tv-remote">
-      <button id="power-btn">Encender / Apagar</button>
-      <input type="range" id="volume-slider" min="0" max="100" value="50" />
-      <button id="change-channel-btn">Cambiar Canal</button>
-      <!-- Nuevo botón -->
-    </div>
-    <script src="script.js"></script>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>
