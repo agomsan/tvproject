@@ -1,21 +1,3 @@
-<h1>PROYECTO DE CREACIÓN DE UNA TV INTERACTIVA</h1>
-<h3>
-Este proyecto es una TV interactiva creada con HTML, CSS y JavaScript. La idea es simular una televisión virtual con un mando que permite cambiar de canal, encender y apagar la TV, y ajustar el volumen.
-
-¿Que funciones es capaz de realizar? 📋
-  <li>
-    <ul>Ajustar el volumen</ul>
-    <ul>Cambiar de canal</ul>
-    <ul>Encender y apagar la TV</ul>
-    <ul>Stack</ul>
-    <ul>HTML: Estrutura Básica</ul>
-    <ul>CSS: Estilos y medidas para la pantalla de TV y el control remoto.</ul>
-    <ul>Javascript: Se le añade la lógica para el correcto funcionamiento de la TV</ul>
-  </li>
-
-</h3>
-ESP / ENG
-
 TELEVISIÓN INTERACTIVA ​
 En el proyecto de la Televisión interactiva, he querido enfocarlo principalmente a lo funcional, usando diseños básicos tanto como para la pantalla como para el mando para así poder dedicar más tiempo a la interfaz gráfica de la pantalla en si.
 
@@ -48,4 +30,5 @@ Home
 <img src="./img/home.png">
 Netflix
 <img src="./img/netflix.gif">
-
+Mando
+<img src="./img/mando.png">
