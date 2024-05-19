@@ -61,7 +61,7 @@ const channel = [
   {
     number: 10,
     name: ":)",
-    url: "../img/onit.gif",
+    url: "./img/onit.gif",
   },
   {
     number: 11,
@@ -72,6 +72,11 @@ const channel = [
     number: 12,
     name: ":)",
     url: "./img/onit.gif",
+  },
+  {
+    number: imgHome,
+    name: "DISNEY+",
+    url: "./img/home.png",
   },
 ];
 
