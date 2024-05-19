@@ -73,11 +73,6 @@ const channel = [
     name: ":)",
     url: "./img/onit.gif",
   },
-  {
-    number: imgHome,
-    name: "DISNEY+",
-    url: "./img/home.png",
-  },
 ];
 
 const onOffTv = () => {
