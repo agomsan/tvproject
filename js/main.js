@@ -1,6 +1,6 @@
 const buttonOnOff = document.querySelector(".onOff");
 const nameChannel = document.querySelector(".nameChannel");
-const imgHome = "../img/home.png";
+const imgHome = "./img/home.png";
 const screenTv = document.querySelector(".screenTv");
 const homeBtn = document.querySelector(".homeBtn");
 let currentChannelIndex = 0;

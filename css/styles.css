@@ -14,8 +14,8 @@
     background-color: black;
     display: grid;
     justify-content: space-between;
-    height: 85%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     border-radius: 2%;
     padding: 5px;
   }
