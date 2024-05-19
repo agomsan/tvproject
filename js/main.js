@@ -102,13 +102,14 @@ const changePic = () => {
 };
 
 const channelUp = () => {
-  currentChannelIndex = (currentChannelIndex + 1) % channel.length;
+  currentChannelIndex = 
+  (currentChannelIndex + 1);
   changePic();
 };
 
 const channelDown = () => {
   currentChannelIndex =
-    (currentChannelIndex - 1 + channel.length) % channel.length;
+    (currentChannelIndex - 1);
   changePic();
 };
 
