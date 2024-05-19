@@ -16,47 +16,47 @@ const channel = [
   {
     number: 1,
     name: "DISNEY+",
-    url: "../img/disney.png",
+    url: "./img/disney.png",
   },
   {
     number: 2,
     name: "ESPN",
-    url: "../img/espn.png",
+    url: "./img/espn.png",
   },
   {
     number: 3,
     name: "FOX",
-    url: "../img/fox.png",
+    url: "./img/fox.png",
   },
   {
     number: 4,
     name: "HULU",
-    url: "../img/hulu.png",
+    url: "./img/hulu.png",
   },
   {
     number: 5,
     name: "Netflix",
-    url: "../img/netflix.gif",
+    url: "./img/netflix.gif",
   },
   {
     number: 6,
     name: "HBO",
-    url: "../img/hbo.gif",
+    url: "./img/hbo.gif",
   },
   {
     number: 7,
     name: ":)",
-    url: "../img/onit.gif",
+    url: "./img/onit.gif",
   },
   {
     number: 8,
     name: ":)",
-    url: "../img/onit.gif",
+    url: "./img/onit.gif",
   },
   {
     number: 9,
     name: ":)",
-    url: "../img/onit.gif",
+    url: "./img/onit.gif",
   },
   {
     number: 10,
@@ -66,12 +66,12 @@ const channel = [
   {
     number: 11,
     name: ":)",
-    url: "../img/onit.gif",
+    url: "./img/onit.gif",
   },
   {
     number: 12,
     name: ":)",
-    url: "../img/onit.gif",
+    url: "./img/onit.gif",
   },
 ];
 
